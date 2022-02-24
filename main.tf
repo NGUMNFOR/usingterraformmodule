@@ -1,7 +1,7 @@
 
 
 module "vpcmodule" {
-  source = "git::git@github.com:NGUMNFOR/FirstTerraformproject.git//vpcmodule"
+  source = "git@github.com:NGUMNFOR/FirstTerraformproject.git//vpcmodule"
 
   vpccidr        = "200.0.0.0/16"
   WebsubnetNames = 3
